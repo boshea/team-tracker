@@ -1,0 +1,35 @@
+ RUNS  src/components/emptyTest.spec.js
+webpack built ed1f37b9d65ba7d3853c in 1061ms
+ℹ ｢wdm｣: Built at: 02/17/2019 2:46:49 PM
+Entrypoint main = bundle.js
+[./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js] 2.02 KiB {main} [built]
+[./node_modules/querystring-es3/index.js] 127 bytes {main} [built]
+[./node_modules/react-hot-loader/dist/react-hot-loader.development.js] 54.1 KiB {main} [built]
+[./node_modules/react-hot-loader/patch.js] 228 bytes {main} [built]
+[./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js] 5.91 KiB {main} [built]
+[./node_modules/react/index.js] 190 bytes {main} [built]
+[./node_modules/shallowequal/index.js] 979 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[0] multi ./src/webpack-public-path react-hot-loader/patch webpack-hot-middleware/client?reload=true ./src/index.js 64 bytes {main} [built]
+[./node_modules/webpack-hot-middleware/client-overlay.js] (webpack)-hot-middleware/client-overlay.js 2.16 KiB {main} [built]
+[./node_modules/webpack-hot-middleware/client.js?reload=true] (webpack)-hot-middleware/client.js?reload=true 7.59 KiB {main} [built]
+[./node_modules/webpack-hot-middleware/process-update.js] (webpack)-hot-middleware/process-update.js 4.23 KiB {main} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {main} [built]
+[./src/index.js] 46 bytes {main} [built]
+[./src/webpack-public-path.js] 593 bytes {main} [built]
+    + 21 hidden modules
+Child html-webpack-plugin for "index.html":
+    Entrypoint undefined = index.html
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.ejs] 1.74 KiB {0} [built]
+    [./node_modules/lodash/lodash.js] 527 KiB {0} [built]
+    [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 489 bytes {0} [built]
+ PASS  src/components/emptyTest.spec.jsule.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+  Sample Tests
+    Sample
+      ✓ should return true (2ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.899s, estimated 1s
+Ran all test suites.
